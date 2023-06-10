@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+  
+}
+
+.graf {
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.one-box {
+  width: 500px;
+  height: 600px;
+  background-color: rgb(20, 15, 15);
+}
+
+.two-box {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(169, 105, 105);
+}
+
+.three-box {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(93, 152, 152);
+}
+
+.btn {
+  position: absolute;
+  margin-top: -400px;
+  margin-left: 550px;
+  padding: 10px 25px;
+}
